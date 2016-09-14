@@ -1,9 +1,9 @@
 package cadieux;
 
-/*
- * cadieux
+/* aboutMe.java
+ * Print out information
  * september 13, 2016
- * 
+ * Simon Cadieux
  */
 public class aboutMe {
 
