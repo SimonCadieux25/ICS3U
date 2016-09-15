@@ -14,7 +14,7 @@ public class aboutMe {
 		System.out.println("Runnymede C.I.");
 		System.out.println("\"Go Ravens Go!\"");
 		
-		System.out.format("%-10s %8s %18s","Weekdays,\t","Class Code,\t","Class Start Times\n");
+		System.out.format("%-10s %8s %18s","Weekdays,\t","Class Code,\t","Class Start Times \n");
 		System.out.format("%-10s %8s %8s","Monday-Friday\t","SPH3U1-01\t","08:45am\n");
 		System.out.format("%-10s %8s %8s","Monday-Friday\t","AMQ3M1-02\t","10:07am\n");
 		System.out.format("%-10s %8s %8s","Monday-Friday\t","ICS3U1-01\t","12:26pm\n");
