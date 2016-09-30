@@ -29,9 +29,9 @@ public class QuadraticFormula {
 		c = scan.nextInt();
 		
 		
-		System.out.println("+ is= "+(df.format(-1*b+Math.sqrt((b^2)+(4*(a*c)))/2*a))+"\n");
+		System.out.println("+ is= "+(df.format(-1*b+Math.sqrt((b^2)-(4*(a)*(c)))/2*a))+"\n");
 		
-		System.out.println("- is= "+(df.format(-1*b-Math.sqrt((b^2)+(4*(a*c)))/2*a)));
+		System.out.println("- is= "+(df.format(-1*b-Math.sqrt((b^2)-(4*(a)*(c)))/2*a)));
 
 	}
 
