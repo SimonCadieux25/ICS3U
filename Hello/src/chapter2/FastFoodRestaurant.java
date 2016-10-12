@@ -36,15 +36,23 @@ public class FastFoodRestaurant {
 		System.out.print("Enter the number of burgers: "); numofb = scan.nextInt();
 		System.out.print("Enter the number of fries: "); numoff = scan.nextInt();
 		System.out.print("Enter the number of sodas: "); numofs = scan.nextInt();
+		
 		beforetax = ((priceofb*numofb)+(priceoff*numoff)+(priceofs*numofs));
+		
 		System.out.println("Total Before Tax: $"+ df.format(beforetax));
+		
 		taxcal = (beforetax*tax);
+		
 		System.out.println("Tax: $"+ df.format(taxcal));
+		
 		total = (taxcal+beforetax);
+		
 		System.out.println("Total: $"+ df.format(total));
 		
 		System.out.print("\n Enter amount tendered: $"); amountpaid = scan.nextInt();
+		
 		change = (amountpaid-total);
+		
 		System.out.println("Change: $"+df.format(change));
 		
 		
