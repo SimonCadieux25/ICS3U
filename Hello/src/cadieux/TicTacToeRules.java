@@ -1,4 +1,5 @@
-/* TicTacToeRules
+package cadieux;
+/* TicTacToeRules.java
  * States the rules of Tic-Tac-Toe 
  * SimonCadieux
  * Sept 19, 2016
