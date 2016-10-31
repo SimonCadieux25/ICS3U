@@ -1,7 +1,7 @@
-package chapter2;
+package cadieux.Unit2;
 
 /*
- * FastFoodRestaurant
+ * FastFoodRestaurant.java
  * Crates a recipt for a fast food restaurant
  * Simon Cadieux
  * Oct 6 2016
@@ -33,9 +33,12 @@ public class FastFoodRestaurant {
 		double taxcal;
 		double change;
 		
-		System.out.print("Enter the number of burgers: "); numofb = scan.nextInt();
-		System.out.print("Enter the number of fries: "); numoff = scan.nextInt();
-		System.out.print("Enter the number of sodas: "); numofs = scan.nextInt();
+		System.out.print("Enter the number of burgers: "); 
+		numofb = scan.nextInt();
+		System.out.print("Enter the number of fries: "); 
+		numoff = scan.nextInt();
+		System.out.print("Enter the number of sodas: "); 
+		numofs = scan.nextInt();
 		
 		beforetax = ((priceofb*numofb)+(priceoff*numoff)+(priceofs*numofs));
 		

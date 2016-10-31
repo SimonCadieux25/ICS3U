@@ -1,10 +1,10 @@
 /**
- * JavaProgramTimeTaken
+ * JavaProgramTimeTaken.java
  * brakes up the time taken on a java program and shows what percent of time is used for each task
  * Simon Cadieux
  * Oct 11 2016
  */
-package chapter2;
+package cadieux.Unit2;
 
 import java.util.Scanner;
 import java.text.DecimalFormat;

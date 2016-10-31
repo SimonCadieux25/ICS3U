@@ -5,7 +5,7 @@
  * Sept 30 2016
  */
 
-package chapter2;
+package cadieux.Unit2;
 
 import java.util.Scanner;
 import java.text.DecimalFormat;

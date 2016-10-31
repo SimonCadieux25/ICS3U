@@ -2,7 +2,7 @@ package cadieux;
 /* BinaryToDecimalAndHexadecimalToDecimal.java
  * Converts Binary to Decimal and Hexadecimal to Decimal
  * SimonCadieux
- * Sept 19, 2016
+ * September 19, 2016
  */
 public class BinaryToDecimalAndHexadecimalToDecimal {
 	

@@ -1,4 +1,4 @@
-package cadieux;
+package cadieux.Unit2;
 /**
  * ArithmaticExpressions.java
  * Prints out numbers and different combinations of numbers
