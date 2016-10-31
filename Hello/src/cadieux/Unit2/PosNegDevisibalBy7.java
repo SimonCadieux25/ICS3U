@@ -17,7 +17,8 @@ public class PosNegDevisibalBy7 {
 		
 		Scanner scan=new Scanner(System.in);
 		DecimalFormat df = new DecimalFormat ("0.00");
-		 
+		
+		System.out.print("Please enter a number");
 		int Num = scan.nextInt();
 		
 		if (Num >0){
