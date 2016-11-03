@@ -36,7 +36,7 @@ public class EggCompany {
 			price = 0.50;
 		}
 		
-		System.out.println("The number of eggs perchased $" + (NumDozEgg*12));
+		System.out.println("The number of eggs perchased " + (NumDozEgg*12));
 		System.out.println("The price per dozen is $" + price);
 		System.out.println("The total price is: $"+ (price*NumDozEgg));
 		
