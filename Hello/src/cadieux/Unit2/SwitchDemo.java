@@ -41,7 +41,18 @@ public class SwitchDemo {
 				break;
 		}
 		
-		System.out.println("The " + Day + " of the week is " + daystring);
+		if (Day <= 1){
+			System.out.println("The " + Day + "st day of the week is " + daystring);
+		}
+		else if (Day <= 2){
+			System.out.println("The " + Day + "nd day of the week is " + daystring);
+		}
+		else if (Day <= 3){
+			System.out.println("The " + Day + "rd day of the week is " + daystring);
+		}
+		else if (Day >= 4){
+			System.out.println("The " + Day + "th day of the week is " + daystring);
+		}
 	}
 
 }
