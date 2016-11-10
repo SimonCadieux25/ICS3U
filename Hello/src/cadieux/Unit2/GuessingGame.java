@@ -19,7 +19,7 @@ public class GuessingGame {
 		int sX = (int)(Math.random()*20)+1;
 		int X;
 		
-		System.out.print("Guess a number between 1 and 20");
+		System.out.println("Guess a number between 1 and 20");
 		X = scan.nextInt();
 		
 		if (X == sX){
