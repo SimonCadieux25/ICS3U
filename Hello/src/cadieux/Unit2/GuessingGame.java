@@ -18,15 +18,18 @@ public class GuessingGame {
 		
 		int sX = (int)(Math.random()*20)+1;
 		int X;
-		
-		System.out.println("Guess a number between 1 and 20");
+		int counter = 1;
+		while (counter <= 1){
+		System.out.print("Guess a number between 1 and 20: ");
 		X = scan.nextInt();
 		
 		if (X == sX){
-			System.out.println("Your guess was correct YOU WON!");
+			System.out.println("YOU WON!");
+			counter = counter + 1;
 		}
 		else{
-			System.out.println("Better Luck Next Time");
+			System.out.println("Try again.");
+		}
 		}
 
 	}
