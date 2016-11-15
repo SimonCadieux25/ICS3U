@@ -17,7 +17,8 @@ public class Random2 {
 		int uDie2;
 		int cDie1;
 		int cDie2;
-		
+		int counter = 0;
+		while (counter<2){
 		uDie1 = (int)(Math.random()*6)+1;
 		uDie2 = (int)(Math.random()*6)+1;
 		
@@ -44,7 +45,16 @@ public class Random2 {
 		else{
 			System.out.println("It's a tie with the rolls of " + uTotal + " for you and " + cTotal + " for the Computer");
 		}
+		System.out.print("\ndo you want to play again: ");
+		String YN = scan.nextLine();
+		if (YN.equals("yes")){
+		counter=counter;
 		
+		}
+		else{
+			counter=2;
+		}
+		}
 
 	}
 
