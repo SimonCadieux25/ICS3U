@@ -1,5 +1,5 @@
 package cadieux.Unit2;
-import java.util.Scanner;
+
 
 /**
  * RollingDice.java
@@ -13,7 +13,6 @@ public class RollingDice {
 
 	
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
 		
 		int[] timesHappend = {0,0,0,0,0,0,0,0,0,0,0};
 		
