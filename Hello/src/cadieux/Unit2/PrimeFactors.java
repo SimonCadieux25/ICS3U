@@ -12,25 +12,30 @@ import java.util.Scanner;
 public class PrimeFactors {
 
 
+	public static boolean isPrime(int n){
+		for(int i = n-1;i>=2;i--){
+			if(n%i==0){
+				return false;
+			}
+		}
+		return true;
+	}
+	
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);
 		
-		double num;
-		System.out.print("Enter a number: ");
-		num = scan.nextInt();
+		int N = scan.nextInt();
+		int i = 1;
+		int x = 2;
 		
-		int count = 2;
-		
-		while (count <= num){
-			if (num % count == 0){
-				System.out.println(count);
-				num = num / count;
+		while(i<=(N)){
+			if(isPrime(x)){
+				System.out.println(x);
+				i = i+1;
+				
 			}
-			else{
-				count = count + 1;
-			}
+			x = x + 1;
 		}
-		
 
 	}
 
